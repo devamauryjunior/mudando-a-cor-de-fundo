@@ -1,8 +1,8 @@
 function mudarCor() {
     const newcolor = document.getElementById('newcolor');
-    const titulo = document.querySelector('h1#muda');
     const value = newcolor.value;
-    if(value === 'black'){
+    const titulo = document.querySelector('h1#muda');
+    if((value).toLowerCase() === 'black'){
         titulo.style.color = 'white';
     } else {
         titulo.style.color = 'black';
